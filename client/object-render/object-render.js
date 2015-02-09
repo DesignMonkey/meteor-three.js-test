@@ -1,4 +1,4 @@
-  Template.ship.rendered = function () {
+  Template.objectRender.rendered = function () {
 
 
         var container;
@@ -17,7 +17,7 @@
 
         function init() {
 
-          container = document.getElementById("shipcanvas");
+          container = document.getElementById("container");
 
           camera = new THREE.PerspectiveCamera( 45, window.innerWidth / window.innerHeight, 1, 7000 );
           camera.position.z = 100;
